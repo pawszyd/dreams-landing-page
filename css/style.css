@@ -1,0 +1,581 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+
+h1
+{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 45px;
+}
+
+h3
+{
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+hr
+{
+	height: 0;
+	border: 0;
+	width: 10%;
+	border-top: 1px solid #35C2F8;
+	margin-left: 45%;
+	margin-top: 40px;
+}
+
+header
+{
+	background-image: url(../img/first-section-background.png);
+	color: white;
+	height: 100vh;
+}
+
+header h1
+{
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 22vh;
+	margin-left: 30%;
+	width: 40%;
+}
+
+header p
+{
+	text-align: center;
+	font-size: 20px;
+	line-height: 200%;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 40px;
+	color: #bcbcbc;
+}
+
+.cover
+{
+	background-color: rgba(0,0,0,0.75);
+	height: 100vh;
+}
+
+nav
+{
+	width: 80%;
+	height: 100px;
+	margin-left: 10%;
+	box-sizing: border-box;
+}
+
+nav li
+{
+	text-align: center;
+	display: inline;
+	float: right;
+	margin-left: 40px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+nav li.logo
+{
+	float: left;
+	margin-top: 40px;
+}
+
+nav a
+{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	border-bottom: 1px solid white;
+}
+
+#services
+{
+	height: 85vh;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+
+#services h1
+{
+	text-align: center;
+	margin-left: 30%;
+	width: 40%;
+}
+
+.services-element
+{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 10%;
+}
+
+.services-element i
+{
+	font-size: 50px;
+	color: #bcbcbc;
+}
+
+#services h3
+{
+	margin-top: 20px;
+}
+
+#services p
+{
+	font-size: 16px;
+	color: gray;
+	margin-top: 10px;
+}
+
+.expertise article
+{
+	float: left;
+	background-color: #F7F7F7;
+}
+
+.left
+{
+	height: 100vh;
+	width: 70%;
+	box-sizing: border-box;
+	padding: 80px 64px 0 64px;
+}
+
+.left h1
+{
+	width: 80%;
+}
+
+.left p
+{
+	color: gray;
+	margin: 0;
+}
+
+.left h1 + p
+{
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+i
+{
+	font-size: 32px;
+	color: gray;
+}
+
+.right
+{
+	height: 100vh;
+	width: 30%;
+	overflow: hidden;
+}
+
+.right img
+{
+	margin-left: -30%;
+}
+
+.expertise-element
+{
+	display: inline-block;
+	width: 45%;
+	margin: 2% 2% 2% 0;
+	height: 70px;
+}
+
+.expertise-element-icon
+{
+	float: left;
+	height: 110px;
+	width: 48px;
+}
+
+.button
+{
+	width: 160px;
+	height: 56px;
+	text-align: center;
+	background-color: #35C2F8;
+	color: white;
+	border-radius: 200px;
+	line-height: 56px;
+	text-transform: uppercase;
+}
+
+.button:hover
+{
+	background-color: white;
+	color: #35C2F8;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+
+#portfolio
+{
+	height: 100vh;
+	overflow: hidden;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+
+.portfolio-left h1, p, .portfolio-element
+{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#portfolio h1
+{
+	margin-bottom: 40px;
+}
+
+#portfolio p, i
+{
+	color: gray;
+}
+
+.portfolio-left
+{
+	width: 60%;
+	float: left;
+}
+
+.portfolio-right 
+{
+	width: 40%;
+	float: left;
+}
+
+.portfolio-element
+{
+	margin-top: 32px;
+}
+
+.portfolio-element-icon
+{
+	width: 10%;
+	float: left;
+}
+
+#about
+{
+	box-sizing: border-box;
+	padding-top: 80px;
+}
+
+.about-element
+{
+	width: 300px;
+}
+
+.portfolio-images img
+{
+	width: 33.3333%;
+	float: left;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.about-image-cropper
+{
+	width: 169px;
+	height: 168px;
+	overflow: hidden;
+	border: 8px solid #bcbcbc;
+	border-radius: 50%;
+}
+
+.about-image-cropper:first-child
+{
+	margin-top: 80px;
+}
+
+.about-image-cropper:last-child
+{
+	margin-bottom: 80px;
+}
+
+.about-image-cropper img
+{
+	display: inline;
+	margin: 0 auto;
+	margin-left: -25%;
+	height: 100%;
+}
+
+.about-image-no-margin img
+{
+	margin-left: 0;
+}
+
+#about h1
+{
+	text-align: center;
+}
+
+#about hr
+{
+	margin-top: 20px;
+}
+
+#about p
+{
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	line-height: 180%;
+}
+
+#about h3
+{
+	line-height: 160%;
+}
+
+.flexbox-about
+{
+	display: flex;
+	 justify-content: center;
+}
+
+.lefted
+{
+	order: 1;
+	text-align: right;
+}
+
+.lefted .about-element
+{
+	margin-top: 90px;
+}
+
+.lefted .about-element:last-child
+{
+	margin-top: 365px;
+}
+
+.centered
+{
+	margin: 0 50px 0 50px;
+	order: 2;
+}
+
+.righted
+{
+	order: 3;
+}
+
+.righted .about-element
+{
+	margin-top: 365px;
+}
+
+.about-line
+{
+	height: 90px;
+	width: 2px;
+	margin: 0 auto;
+	background-color: #bcbcbc;
+}
+
+#team
+{
+	text-align: center;
+	background-color: #F7F7F7;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#team div + p
+{
+	margin-top: 80px;
+	color: gray;
+}
+
+#team h3
+{
+	margin-top: 20px;
+}
+
+.team-element p
+{
+	margin-top: 10px;
+	color: gray;
+}
+
+.flexbox-team
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 80px;
+}
+
+.icon-box
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
+
+.icon-circle
+{
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.icon-circle:hover
+{
+	background-color: white;
+	cursor: pointer;
+}
+
+.icon-circle i
+{
+	color: white;
+}
+
+.icon-circle i:hover
+{
+	color: black;
+}
+
+#contact
+{
+	background-color: black;
+	color: white;
+}
+
+#contact .button
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+#contact hr
+{
+	border-color: white;
+	width: 72%;
+	margin: 80px 0 0 11%;
+}
+
+.contact-element
+{
+	display: flex;
+	margin-top: 10px;
+}
+
+.contact-element i
+{
+	box-sizing: border-box;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+.flexbox-contact
+{
+	display: flex;
+	width: 100%;
+}
+
+.media
+{
+	width: 50%;
+	overflow: hidden;
+	padding-top: 80px;
+	padding-left: 160px;
+	box-sizing: border-box;
+}
+
+.media p
+{
+	margin: 20px 0 20px 0;
+	padding: 0;
+}
+
+.media i
+{
+	color: white;
+}
+
+.flexbox-media
+{
+	display: flex;
+}
+
+.form
+{
+	width: 50%;
+	padding-top: 80px;
+	padding-right: 160px;
+	box-sizing: border-box;
+}
+
+.form input
+{
+	border: none;
+	border-radius: 5px;
+	width: 80%;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.form input:first-child
+{
+	margin-top: 10px;
+}
+
+.form input.massage-input
+{
+	height: 150px;
+}
+
+.form input.massage-input::placeholder
+{
+	line-height: 50px;
+}
+
+.contact-lefted
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+}
+
+.contact-righted
+{
+	display: flex;
+	flex-direction: column;
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 30px;
+}
